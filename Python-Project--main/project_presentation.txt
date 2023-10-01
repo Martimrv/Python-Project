@@ -1,0 +1,32 @@
+The mini-project contains three parts: 
+
+Part one - count unique words / top 10 most frequent
+    In part 1 I created a function which open, encondes and reads the two given files (from assingment 3). 
+    The second function aim is to count the number of unique words; it starts with a variable called "unique_words" which uses set() method to create "an unordered collection of unique elements". 
+    This function should return the number of unique words, so the advantage using a set() is that it will check if an element has been already counted.
+    Third function returns the top 10 most frequent words (len > 4). To do it, I used count() method, a dictionary subclass.  
+    If we were counting the occurrences of a single object, we could use a single object. However, in this specific case we want to count several different objects. 
+    As I said previously, I used counter() dict subclass. It counts the number of times an element appears and saves the elements and the counts as keys and values.
+    The last function is just get the path for the files and to call the previous functions. 
+
+Part two - Bst and HashSet
+    In this part we had to finish a given code skeleton. 
+    BstMap - a BSTMap is a data structure which holds key-value pairs.
+    In this exercise we had to finish a code skeleton, containing an implemented BSTMap class and also a Node class.
+    It is called a Binary tree because each Node has a maximum of two children; all nodes of the left subtree are smaller than the root Node; on 
+    the other hand all Nodes of the right subtree are greater than the root Node.
+    The methods implemented have created a functional BSTMap. The output is equal to the one given. 
+
+
+    HashSet - It is an unordered and unindexed data structure. HashSet hold a set of unique objects in buckets, in a way that allows us to quickly 
+    check if an object is already in the set. The searching process is quickly and easier because it uses a hashing method to store the elements in buckets. 
+!!!!!Explain Hash formula!!!!
+    We had to implement it on a code skeleton, we had to finish it. 
+
+Part three - Count Unique words and Top 10 most frequent, using data classes from Part2.  
+    To solve this part it was needed to use the code from part 1, and instead of using Python´s classe set and dict, use BSTMap and Hashset.
+    Apart from that, it was asked to get the Buckets List size, Max bucket size and Zero bucket ratio, adjusting HashSet to return the correct output. 
+    Moreover, I used BSTMap to return the Top 10 most frequent, number of Nodes, Max depth and to count number of leafs. 
+    Function "Top 10 most frequent" uses BSTMap, checks if len > 4, and returns the Top 10 most frequenT.
+    The output is equal to part 1, apart from the other requested outputs. 
+
